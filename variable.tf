@@ -86,3 +86,38 @@ variable "ssl_certificate_arn" {
     description = "ssl certificate arn"
     type        = string
 }
+
+
+# sns topic variable
+
+variable "operator_email" {
+    default     = "suminithesh@gmail.com"
+    description = "my email address"
+    type        = string
+}
+
+# auto scaling group variables
+
+variable "launch_template_name" {
+    default     = "terraform-launch-template"
+    description = "name of the launch template"
+    type        = string
+}
+
+variable "ec2_image_id" {
+    default     = "ami-0f470bd103c42e270"
+    description = "ami id"
+    type        = string
+}
+
+variable "ec2_instance_type" {
+    default     = "t2.micro"
+    description = "ec2 instance type"
+    type        = string
+}
+
+variable "ec2_key_pair_name" {
+    default     = "terraformkeypair"
+    description = "ec2 keypair name"
+    type        = string
+}

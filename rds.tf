@@ -30,4 +30,5 @@ resource "aws_db_instance" "database_instance" {
   db_subnet_group_name    = aws_db_subnet_group.database_subnet_group.name
   multi_az                = var.multi_az_deployment
   vpc_security_group_ids  = [aws_security_group.database_security_group.id]
+
 }
