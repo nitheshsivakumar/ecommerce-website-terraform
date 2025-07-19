@@ -33,9 +33,6 @@ By leveraging **Terraform**, this project automates **infrastructure deployment*
 - **AWS Certificate Manager** - Enabling HTTPS for secure communication.
 - **Amazon SNS** - Sending notifications for scaling events.
 
-📌 **Reference Architecture:**  
-![Architecture](1.Terraform-Ecommerce.jpg)
-
 ---
 
 ## 🚀 Deployment Steps
