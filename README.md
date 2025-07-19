@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Web App Deployment on AWS using Terraform
+# 🛒 E-Commerce Website Deployment on AWS using Terraform
 
 ## 📌 Project Overview
 
